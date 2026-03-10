@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "1003388316244",
+    "firebase_url": "https://municipality-corp-default-rtdb.firebaseio.com",
+    "project_id": "municipality-corp",
+    "storage_bucket": "municipality-corp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:abba5219d6fd2d91c01bc1",
+        "android_client_info": {
+          "package_name": "com.example.a_pds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:c5456e90559b1151c01bc1",
+        "android_client_info": {
+          "package_name": "com.example.nestlebond"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:6581a17439d1272ec01bc1",
+        "android_client_info": {
+          "package_name": "com.example.smartwaste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:fb0d7f721feab349c01bc1",
+        "android_client_info": {
+          "package_name": "com.example.timeencoded"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:625ce6e7a2b79f55c01bc1",
+        "android_client_info": {
+          "package_name": "com.example.tourist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:25f9f5c896b9ae73c01bc1",
+        "android_client_info": {
+          "package_name": "com.example.trendrite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003388316244:android:e865a9f36f644ff8c01bc1",
+        "android_client_info": {
+          "package_name": "com.example.womenss"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAso5j_QLVNBHMLxsNO2EqqPjcTfqI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
