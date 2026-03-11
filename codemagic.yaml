@@ -22,9 +22,9 @@ workflows:
           pod install
           cd ..
 
-      - name: Build iOS simulator app
+      - name: Build iOS IPA
         script: |
-          flutter build ios --simulator
+          flutter build ipa --release --no-codesign
 
     artifacts:
-      - build/ios/iphonesimulator/*.app
+      - build/ios/ipa/*.ipa
