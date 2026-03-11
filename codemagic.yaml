@@ -5,25 +5,26 @@ workflows:
     instance_type: mac_mini_m2
 
     environment:
-      flutter: 3.16.7
+      flutter: stable
 
     scripts:
       - name: Install dependencies
         script: |
-          flutter --version
+          flutter clean
           flutter pub get
 
-      - name: Enable iOS platform
+      - name: Reset iOS pods
         script: |
-          flutter config --enable-ios
-
-      - name: Clean project
-        script: |
-          flutter clean
+          cd ios
+          rm -rf Pods
+          rm -rf Podfile.lock
+          pod repo update
+          pod install
+          cd ..
 
       - name: Build iOS simulator app
         script: |
-          flutter build ios --simulator --debug
+          flutter build ios --simulator
 
     artifacts:
       - build/ios/iphonesimulator/*.app
