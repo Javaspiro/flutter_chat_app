@@ -6,6 +6,8 @@ workflows:
 
     environment:
       flutter: 3.16.7
+      vars:
+        DEVELOPMENT_TEAM: ""
 
     scripts:
       - name: Install dependencies
@@ -22,9 +24,9 @@ workflows:
           pod install
           cd ..
 
-      - name: Build iOS (no signing)
+      - name: Build iOS
         script: |
-          flutter build ios --release --no-codesign
+          flutter build ios --release --no-codesign --build-name=1.0 --build-number=1
 
     artifacts:
       - build/ios/iphoneos/*.app
